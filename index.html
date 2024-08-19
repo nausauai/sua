@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .wadah-resut {
+            display: none;
+            justify-content: center;
+            background-color: lightblue;
+            width: 550px;
+            height: 400px;
+            margin: 150px 0px 0px 400px;
+            box-shadow: 0px 1px 10px 1px grey;
+            border-radius: 10px;
+            /* justify-items: center; */
+            /* justify-content: center; */
+            text-align: center;
+        }
+        .wadah-resut a {
+            margin-top: 8rem;
+            color: black;
+            text-align: center;
+            font-size: 3rem;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="startQ">
+        <a href="#" class="byS4ky">Math quiz sederhana</a>
+        <div>
+            <button onclick="startQuiz()" class="btn-mulaiges">Mulai Quiz</button>
+        </div>
+    </div>
+    <div class="wadah">
+        <div class="qu">
+            <a href="#" id="score"><span></span></a>
+            <a href="#" class="pertanyaan" id="suaah" onclick="sua()"></a>
+            <input type="text" class="input" id="inpute">
+            <button class="btn" id="btn" onclick="ihacoy()">Submit</button>
+        </div>
+    </div>
+    <div class="wadah-resut">
+        <a href="" style="text-decoration: none; margin-top: 2rem;">Quiz Selesai !!</a>
+        <a href="" style="text-decoration: none;">Score kamu: <span id="skor-akhir"></span></a>
+
+    </div>    
+    <script src="main.js"></script>
+</body>
+</html>
